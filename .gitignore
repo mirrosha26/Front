@@ -1,0 +1,289 @@
+# ============================================
+# IDE и редакторы
+# ============================================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.iml
+
+# ============================================
+# Логи
+# ============================================
+logs/
+*.log
+*.log.*
+build*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Временные файлы
+# ============================================
+.tmp/
+.temp/
+.cache/
+.clerk/.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# Временные текстовые файлы
+coo.txt
+temp.txt
+test.txt
+*.txt.bak
+
+# ============================================
+# Файлы окружения
+# ============================================
+.env
+.env.*
+!.env.example
+!env.example.txt
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# Сборки и артефакты
+# ============================================
+dist/
+build/
+out/
+.next/
+.vercel/
+storybook-static/
+*.tsbuildinfo
+
+# ============================================
+# Зависимости
+# ============================================
+node_modules/
+.pnp/
+.pnp.js
+.pnp.*
+bower_components/
+jspm_packages/
+
+# ============================================
+# Package managers
+# ============================================
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# pnpm
+.pnpm-debug.log*
+.pnpm-store/
+
+# npm
+.npm/
+package-lock.json.backup
+
+# ============================================
+# Next.js
+# ============================================
+.next/
+out/
+next-env.d.ts
+.vercel/
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ============================================
+# Тестирование
+# ============================================
+coverage/
+.nyc_output/
+.jest/
+*.test.js.snap
+*.spec.js.snap
+
+# ============================================
+# Операционные системы
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# PM2 и процессы
+# ============================================
+ecosystem.config.js.local
+.pm2/
+pm2.log
+pm2-error.log
+pm2-out.log
+
+# ============================================
+# Turbo
+# ============================================
+.turbo/
+
+# ============================================
+# PWA и Service Workers
+# ============================================
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# ============================================
+# Локальные файлы конфигурации
+# ============================================
+*.local.js
+*.local.json
+*.local.ts
+*.local.tsx
+*.local.sh
+*.local.conf
+.sentryclirc
+.eslintcache
+.stylelintcache
+
+# ============================================
+# Безопасность - ключи и сертификаты
+# ============================================
+*.pem
+VeckAWS.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# ============================================
+# Файлы с учетными данными
+# ============================================
+# Игнорируем только файлы с учетными данными в корне и конфигах
+# НЕ игнорируем код в src/ (API routes, components)
+/credentials*
+/secret*
+/password*
+/token*
+*.credentials*
+*.secret*
+*.password*
+*.token*
+!*example*
+# Явно разрешаем важные файлы кода
+!src/**/*token*
+!src/**/*password*
+
+# ============================================
+# Локальные заметки разработчика
+# ============================================
+TODO.md
+NOTES.md
+FIXME.md
+CHANGELOG.local.md
+*.todo
+*.note
+
+# ============================================
+# Большие медиафайлы
+# ============================================
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# ============================================
+# Архивы
+# ============================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+
+# ============================================
+# Кэши и временные файлы
+# ============================================
+.cache/
+.temp/
+.tmp/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ============================================
+# Дополнительные файлы
+# ============================================
+# Backup файлы
+*.backup
+*.old
+*.save
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Lock файлы (если используете только один пакетный менеджер)
+# Раскомментируйте, если используете только npm:
+# yarn.lock
+# pnpm-lock.yaml 
